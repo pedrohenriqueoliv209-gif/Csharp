@@ -1,18 +1,28 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-//declaração de variáveis
-int a, b, total;
-//atribuição de valores
-a = 20;
-b = 10;
-/*concatenação de valores a serem exibidos na tela calculo da operação sendo realizado entre parênteses*/
-Console.WriteLine(a + " + " + b + "=" + (a + b));
-//resultado do cálculo da operação sendo atribuído em uma variável
-total = a - b;
-Console.WriteLine(a + " - " + b + " = " + total);
-Console.WriteLine(a + "*" + b + " = " + (a * b));
-Console.WriteLine(a + "/" + b + " = " + (a / b));
-Console.WriteLine(a + "%" + b + " = " + (a % b));
-Console.ReadKey();//Ins
+namespace Aula1_Exemplo2
+{ //inicio namespace
+    class Program
+    { //inicio class
+        static void Main(string[] args)
+        { //inicio Main
+          //declaçao de variaveis
+            int a, b, total;
+            //atribuiçao de valores 
+            a = 20;
+            b = 10;
+            /*concatenaçao de valores a serem exibidos na tela Calculo da operaçao sendo realizado entre parenteses*/
+            Console.WriteLine(a + " + " + b + " = " + (a + b));
+            //Resultado do calculo da operaçao sendo atribuido a uma variavel
+            total = a - b;
+            Console.WriteLine(a + " - " + b + " = " + total);
+            Console.WriteLine(a + " * " + b + " = " + (a * b));
+            Console.WriteLine(a + " / " + b + " = " + (a * b));
+            Console.WriteLine(a + " % " + b + " = " + (a % b));
+
+            Console.ReadKey(); // instruçao ultilizada para dar uma pausa para visualizaçao
+        } //fim main
+    } //fimClass
+} //fim namespace
